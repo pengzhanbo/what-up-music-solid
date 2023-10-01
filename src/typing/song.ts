@@ -190,3 +190,9 @@ export interface LyricItem {
   timestamp: number
   text: string
 }
+
+export interface SongSource {
+  id: number
+  name: string
+  type?: 'playlist' | 'album' | 'artist'
+}
