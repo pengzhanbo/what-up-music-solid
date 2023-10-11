@@ -1,4 +1,5 @@
 import solid from 'solid-start/vite'
+import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 import solidStyled from 'vite-plugin-solid-styled'
 
@@ -11,6 +12,10 @@ export default defineConfig({
         include: 'src/**/*.tsx',
         exclude: 'node_modules/**/*.{ts,js}',
       },
+    }),
+    Icons({
+      compiler: 'solid',
+      scale: 1,
     }),
   ],
 
