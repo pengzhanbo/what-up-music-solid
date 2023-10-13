@@ -1,18 +1,12 @@
 import solid from 'solid-start/vite'
+import StaticAdapter from 'solid-start-static'
 import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
-import solidStyled from 'vite-plugin-solid-styled'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    solid({ ssr: false }),
-    solidStyled({
-      filter: {
-        include: 'src/**/*.tsx',
-        exclude: 'node_modules/**/*.{ts,js}',
-      },
-    }),
+    solid({ ssr: false, adapter: StaticAdapter() }),
     Icons({
       compiler: 'solid',
       scale: 1,

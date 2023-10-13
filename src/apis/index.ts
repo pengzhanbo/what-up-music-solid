@@ -3,6 +3,7 @@ export * from './recommend'
 export * from './rank'
 
 export * from './auth'
+export * from './fm'
 
 export * from './user'
 export * from './playList'

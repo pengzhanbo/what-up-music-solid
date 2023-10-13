@@ -15,7 +15,6 @@
   "prettier": "@pengzhanbo/prettier-config",
   "dependencies": {
     "@fontsource/noto-sans-sc": "^5.0.14",
-    "@iconify-icon/solid": "^1.0.8",
     "@pengzhanbo/utils": "^1.0.9",
     "@solidjs/meta": "^0.28.6",
     "@solidjs/router": "^0.8.3",
@@ -26,7 +25,6 @@
     "normalize.css": "^8.0.1",
     "solid-js": "^1.8.1",
     "solid-start": "^0.3.6",
-    "solid-styled": "^0.8.2",
     "solid-transition-group": "^0.2.3"
   },
   "devDependencies": {
@@ -36,12 +34,14 @@
     "@tauri-apps/cli": "^1.5.2",
     "@types/babel__core": "^7.20.2",
     "@types/node": "^20.8.4",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.51.0",
+    "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "solid-start-node": "^0.3.6",
+    "solid-start-static": "^0.3.6",
     "typescript": "^5.2.2",
     "unplugin-icons": "^0.17.0",
-    "vite": "^4.4.11",
-    "vite-plugin-solid-styled": "^0.8.3"
+    "vite": "^4.4.11"
   }
 }
