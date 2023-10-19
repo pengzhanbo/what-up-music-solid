@@ -1,0 +1,16 @@
+.loading {
+  width: 100%;
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-text-light-dark);
+}
+
+.text {
+  margin-left: 14px;
+}
