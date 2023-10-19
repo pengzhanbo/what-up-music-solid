@@ -1,0 +1,34 @@
+.play-count {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  padding-top: 2px;
+  padding-right: 7px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-shadow:
+    0 1px 2px rgba(30, 29, 39, 0.29),
+    1px 2px 4px rgba(54, 64, 147, 0.28);
+}
+
+.icon-play {
+  position: relative;
+  top: -1px;
+  margin-right: 4px;
+}
+
+.icon-high {
+  position: relative;
+  z-index: 1;
+}
+
+.icon-hosts {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  color: rgba(30, 29, 39, 0.29);
+  transform: translate(1px, 3px);
+}
