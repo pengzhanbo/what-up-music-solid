@@ -1,0 +1,59 @@
+.play-fill {
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: var(--c-brand);
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+}
+
+.center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rb {
+  bottom: 7px;
+  right: 7px;
+}
+
+.normal {
+  height: 42px;
+  width: 42px;
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.small {
+  height: 32px;
+  width: 32px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.smaller {
+  height: 24.5px;
+  width: 24.5px;
+}
+
+.dark {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.light {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.lighter {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hover {
+  opacity: 0;
+}
+
+:global(.group:hover) .play-fill.hover {
+  opacity: 1;
+}
