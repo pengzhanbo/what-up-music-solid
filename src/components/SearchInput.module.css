@@ -1,0 +1,37 @@
+.wrapper {
+  background-color: var(--c-bg-search);
+  position: relative;
+  display: inline-block;
+  height: 24px;
+  width: 150px;
+  border-radius: 12.25px;
+}
+.wrapper.focus {
+  background-color: var(--c-bg-search-hover);
+}
+
+.icon-search {
+  margin-left: 3px;
+  font-size: 16px;
+  transform: translate3d(0, 0, 0);
+}
+
+.search-input {
+  border-style: none;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 24px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.icon-close {
+  color: var(--c-text-light);
+  margin-right: 4px;
+  font-size: 16px;
+  opacity: 0;
+}
+
+.icon-close.show {
+  opacity: 1;
+}
