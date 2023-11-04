@@ -1,0 +1,44 @@
+.sidebar-wrapper {
+  padding-bottom: 14px;
+}
+.sidebar-wrapper:last-of-type {
+  padding-bottom: 0;
+}
+
+.title {
+  color: var(--c-text-light);
+  padding: 4px 14px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.sidebar-item {
+  padding: 10px 14px;
+}
+
+.sidebar-item.active {
+  background-color: var(--c-bg-sidebar-active);
+    color: var(--c-brand);
+}
+
+.icon {
+  font-size: 18px;
+  transform: translateY(-1px);
+}
+
+.content {
+  margin: 0;
+  width: 1px;
+  flex: 1 1 0%;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.suffix {
+  margin-left: 7px;
+}
