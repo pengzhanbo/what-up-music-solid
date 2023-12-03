@@ -1,7 +1,7 @@
 {
   "name": "what-up-music-solid",
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
   "description": "",
   "scripts": {
     "dev": "tauri dev",
@@ -10,12 +10,13 @@
     "web:build": "solid-start build",
     "start": "solid-start start",
     "serve": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "lint": "eslint ."
   },
   "prettier": "@pengzhanbo/prettier-config",
   "dependencies": {
     "@fontsource/noto-sans-sc": "^5.0.16",
-    "@pengzhanbo/utils": "^1.0.9",
+    "@pengzhanbo/utils": "^1.1.0",
     "@solidjs/meta": "^0.29.1",
     "@solidjs/router": "^0.9.1",
     "@tauri-apps/api": "^1.5.1",
@@ -23,25 +24,23 @@
     "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "normalize.css": "^8.0.1",
-    "solid-js": "^1.8.5",
+    "solid-js": "^1.8.7",
     "solid-start": "^0.3.10",
     "solid-transition-group": "^0.2.3"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.144",
-    "@pengzhanbo/eslint-config": "^0.4.3",
-    "@pengzhanbo/prettier-config": "^0.4.3",
-    "@tauri-apps/cli": "^1.5.6",
+    "@iconify/json": "^2.2.151",
+    "@pengzhanbo/eslint-config": "^1.2.4",
+    "@tauri-apps/cli": "^1.5.7",
     "@types/babel__core": "^7.20.5",
-    "@types/node": "^20.9.3",
+    "@types/node": "^20.10.2",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.54.0",
-    "postcss": "^8.4.31",
-    "prettier": "^3.1.0",
+    "eslint": "^8.55.0",
+    "postcss": "^8.4.32",
     "solid-start-node": "^0.3.10",
     "solid-start-static": "^0.3.10",
     "typescript": "^5.3.2",
-    "unplugin-icons": "^0.17.4",
-    "vite": "^5.0.2"
+    "unplugin-icons": "^0.18.0",
+    "vite": "^5.0.4"
   }
 }
