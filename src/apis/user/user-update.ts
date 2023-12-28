@@ -22,8 +22,8 @@ export interface UserReplacePhoneParams {
 /**
  * 登录后调用此接口 , 可以更换绑定手机
  */
-export const userReplacePhone =
-  post<UserReplacePhoneParams>('/user/replacephone')
+export const userReplacePhone
+  = post<UserReplacePhoneParams>('/user/replacephone')
 
 export interface UserInfoUpdateParams {
   /**
