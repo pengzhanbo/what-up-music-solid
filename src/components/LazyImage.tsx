@@ -71,7 +71,8 @@ function AsyncImage(props: LazyImageProps & { update: (src: string) => void }) {
       setSrc(cached[2])
       p.update(cached[2])
     }
-  } else {
+  }
+  else {
     cache.set(p.src, [
       () =>
         new Promise((resolve) => {
@@ -91,9 +92,9 @@ function AsyncImage(props: LazyImageProps & { update: (src: string) => void }) {
     const cached = cache.get(p.src)!
     if (inViewport() && !cached[2] && !src() && !waiting()) {
       setWaiting(true)
-      if (!cached[1]) {
+      if (!cached[1])
         cached[1] = cached[0]()
-      }
+
       cached[1].then((url) => {
         setSrc(url)
         cached[2] = url
@@ -114,7 +115,8 @@ function AsyncImage(props: LazyImageProps & { update: (src: string) => void }) {
         class={`box-full transition ${styles.img}`}
         classList={{ [styles.active]: Boolean(src()) }}
         style={src() ? { 'background-image': `url(${src()})` } : {}}
-      ></div>
+      >
+      </div>
     </div>
   )
 }
