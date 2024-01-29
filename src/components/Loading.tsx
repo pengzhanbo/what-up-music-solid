@@ -5,7 +5,7 @@ import { IconLoading } from './Icons'
 import styles from './Loading.module.css'
 
 export default function Loading(
-  props: ComponentProps<'div'> & { height?: number; style?: JSX.CSSProperties },
+  props: ComponentProps<'div'> & { height?: number, style?: JSX.CSSProperties },
 ) {
   const [p, op] = splitProps(props, ['class', 'style'])
   const style = createMemo(() => {
